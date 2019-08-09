@@ -29,16 +29,16 @@ This instruction I wrote for myself that after reinstallation not to remember as
 
 * Intel HD Graphics 530
 * Intel Quick Sync graphics acceleration
-* With sed
-* SpeedStep
 * USB 3.0 and USB 2.0 ports
 * 3.5 mini Jack port
 * Ethernet
 
 ### What doesn't work
 
+* TurboBoost and / or SpeedStep - looking for a solution to a problem
+* Sleep - if you click on "Apple" and turn on "Sleep", then the system unit will fall asleep in a minute, and then wake up and the monitor will not wake up - I’m looking for a solution to the problem
 * D-Sub (VGA)
-* FaceTime, iMassage, HandOff, Continuity - in order to make these functions work you need wifi (and probably bluetooth, but it's not accurate). Maybe you need to buy compatible with macOS Mojave Wifi modules and replace or connect them, or you can make the existing Wifi and bluetooth modules work, but I did not want to do it, because I use the Internet via Ethernet wire
+* FaceTime, iMessage, HandOff, Continuity - in order to make these functions work you need wifi (and probably bluetooth, but it's not accurate). Maybe you need to buy compatible with macOS Mojave Wifi modules and replace or connect them, or you can make the existing Wifi and bluetooth modules work, but I did not want to do it, because I use the Internet via Ethernet wire
 
 ### What not verified
 
