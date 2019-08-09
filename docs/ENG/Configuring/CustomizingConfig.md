@@ -1,4 +1,4 @@
-### Setup the config file.plist
+### Setup the config.plist file
 
 Here is described how I have changed net config that goes along with Clover revision 5033.
 
