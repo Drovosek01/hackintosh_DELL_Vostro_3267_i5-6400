@@ -42,8 +42,8 @@
    - In "Users and groups" open "login Options" and set automatic login for user
    - In the "General access" to change or write the name of the computer
    - In "Keyboard"
-     - Press "modification Keys" and swap Command and Ctrl
-     - Open the "Text" tab and uncheck "Correct errors automatically", "Automatically write words with a capital letter" and "Add a dot with a double space"
+     - Press the "Key modification", and swap the Command and Ctrl
+     - Open the "Text" tab and uncheck "Correct errors automatically", "Automatically write words with a capital letter" and " Add a dot with a double space"
    - In "Universal access"
      - In the "Zoom" to enable and configure the increase in convenience (before that, decide whether to swap Ctrl and Command)
      - In "Mouse and trackpad" in "trackpad Options"
@@ -53,4 +53,4 @@
    - If Clover on your flash drive is configured, the remaining checkboxes can not be changed, and if Clover on the flash drive is not configured, then you can configure it in this menu
    - Mount the EFI partition of your disk and flash drive if they are not mounted
    - All files and folders with EFI stick copy to the EFI disk with the replacement and reboot
-7. Flip the `MyKeyboardBundle ' file.bundle` in `/Library/Keyboard Layouts` and ' /System/Library/Keyboard Layouts` or make this file using the program Ukelele and [Hyde](https://www.youtube.com/watch?v=Ll6UGWGSSv8). Then go to "System settings", "Keyboard", "input Sources" and add a new layout and remove the Russian layout.
+7. Throw the file (folder) `MyKeyboardBundle.bundle` in `/Library/Keyboard Layouts` and ' /System/Library/Keyboard Layouts` or make this file using the program Ukelele and [Hyde](https://www.youtube.com/watch?v=Ll6UGWGSSv8). Then go to "System settings", "Keyboard", "input Sources" and add a new layout and remove the Russian layout.
