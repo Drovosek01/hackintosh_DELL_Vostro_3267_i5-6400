@@ -1,6 +1,6 @@
 # What I did when installing Hackintosh on Dell Vostro 3267 system unit
 
-[ENGLISH](/docs/ENG/README.md) | RUSSIAN
+ENGLISH | [RUSSIAN](/README.md)
 
 This instruction I wrote for myself that after reinstallation not to remember as how to do. The instructions are written after installing macOS Mojave 10.14.6. to the system unit [DELL Vostro 3267](https://www.dell.com/support/manuals/vostro-3268-desktop/3268_om_pub/).
 
