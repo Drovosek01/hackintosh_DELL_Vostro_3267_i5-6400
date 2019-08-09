@@ -105,15 +105,15 @@ There is also a guide with pictures in the pdf file. This mini manual is called 
 
 After creating a flash drive with the bootloader Clover and the MacOSX system itself, you need to configure the flash drive, or rather the bootloader, because just so MacOSX on a computer not from Apple will not be installed due to the lack of some differences in hardware between Apple computers and conventional PCs or laptops.
 
-### Driver to be used
+### Drivers to be used
 
-[Driver list](/docs/RUS/Configuring/InstalledDrivers.md)
+[Drivers list](/docs/RUS/Configuring/InstalledDrivers.md)
 
 ### Setup the config file.plist
 
 [Instructions for setting up the config file](/docs/RUS/Configuring/CustomizingConfig.md)
 
-### Used cupcakes
+### Used kexts
 
 [How to use kexts](/docs/RUS/Configuring/InstalledKexts.md)
 
