@@ -210,3 +210,7 @@ MacOSX может быть установлена на диск (без форм
 ### Темы на форумах
 
 В этих темах я опубликовал информацию о настройке и установке hackintosh для этого системного блока
+
+https://www.insanelymac.com/forum/topic/339843-guide-dell-vostro-3267-skylake-i5-6400-10146/
+
+https://applelife.ru/threads/sistemnyj-blok-dell-vostro-3267-skylake-i5-6400.2944306/

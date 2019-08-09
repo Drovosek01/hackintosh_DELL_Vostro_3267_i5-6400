@@ -210,3 +210,7 @@ You can find wonderful Wallpapers on the website https://unsplash.com/
 ### Threads on the forums
 
 In these topics, I have published information about setting up and installing hackintosh for this system unit
+
+https://www.insanelymac.com/forum/topic/339843-guide-dell-vostro-3267-skylake-i5-6400-10146/
+
+https://applelife.ru/threads/sistemnyj-blok-dell-vostro-3267-skylake-i5-6400.2944306/
