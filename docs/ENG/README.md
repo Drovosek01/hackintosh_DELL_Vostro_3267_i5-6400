@@ -107,15 +107,15 @@ After creating a flash drive with the bootloader Clover and the MacOSX system it
 
 ### Drivers to be used
 
-[Drivers list](/docs/RUS/Configuring/InstalledDrivers.md)
+[Drivers list](/docs/ENG/Configuring/InstalledDrivers.md)
 
 ### Setup the config file.plist
 
-[Instructions for setting up the config file](/docs/RUS/Configuring/CustomizingConfig.md)
+[Instructions for setting up the config file](/docs/ENG/Configuring/CustomizingConfig.md)
 
 ### Used kexts
 
-[How to use kexts](/docs/RUS/Configuring/InstalledKexts.md)
+[How to use kexts](/docs/ENG/Configuring/InstalledKexts.md)
 
 ## Install hackintosh macOS Mojave 10.14.6
 
@@ -152,11 +152,11 @@ Below are the most important, in my opinion, items that need to be included on m
    - Mount the EFI partition of your disk and flash drive if they are not mounted
    - All files and folders with EFI stick copy to the EFI disk with the replacement and reboot
 
-The complete list of settings that I use are described in the corresponding file [**configuring Mac OS x**](/docs/RUS/Configuring/ConfiguringMacOSX.md)
+The complete list of settings that I use are described in the corresponding file [**configuring Mac OS x**](/docs/ENG/Configuring/ConfiguringMacOSX.md)
 
 ### Windows setup
 
-[Description of the nuances of installing Windows next to Hackintosh](/docs/RUS/AboutWindows/InstallWindows.md)
+[Description of the nuances of installing Windows next to Hackintosh](/docs/ENG/AboutWindows/InstallWindows.md)
 
 ### Windows settings
 
@@ -181,25 +181,25 @@ If you have a hackintosh, not a real Apple computer, I recommend that these prog
 
 These programs are mainly used to configure Hackintosh, as a working MacOS tool, they are unlikely to be useful to you. Some of these programs, it is desirable to leave in your hackintosh in case something goes wrong and the system starts to "show off", because not everyone can determine how well and how fully configured your hackintosh.
 
-[Hackintosh tools](/docs/RUS/ProgramsList/HackintoshTools.md)
+[Hackintosh tools](/docs/ENG/ProgramsList/HackintoshTools.md)
 
 ### Framework programs for other programs
 
 These programs are needed to run other programs or scripts. This is mainly used by different developers. If you need them, you will know what program you need without this list.
 
-[Other Software](/docs/RUS/ProgramsList/OtherSoftware.md)
+[Other Software](/docs/ENG/ProgramsList/OtherSoftware.md)
 
-### Installed BY
+### Installed Software
 
 Most of the programs from this list I use in my daily work. Naturally, the list is not the most complete, see and decide on your needs.
 
-[Regular Software](/docs/RUS/ProgramsList/RegularSoftware.md)
+[Regular Software](/docs/ENG/ProgramsList/RegularSoftware.md)
 
 ## Benchmark testing
 
 The list of tests, their description and results are presented in a separate file.
 
-[Benchmark test results](/docs/RUS/BenchmarksTesting/benchmark_testing.md)
+[Benchmark test results](/docs/ENG/BenchmarksTesting/benchmark_testing.md)
 
 ## More
 
