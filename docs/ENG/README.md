@@ -32,17 +32,17 @@ This instruction I wrote for myself that after reinstallation not to remember as
 * USB 3.0 and USB 2.0 ports
 * 3.5 mini Jack port
 * Ethernet
-* TurboBoost and / or SpeedStep
+* TurboBoost and SpeedStep
+* Wifi
 
 ### What doesn't work
 
 * Sleep - if you click on "Apple" and turn on "Sleep", then the system unit will fall asleep in a minute, and then wake up and the monitor will not wake up - I’m looking for a solution to the problem
 * D-Sub (VGA)
-* FaceTime, iMessage, HandOff, Continuity - in order to make these functions work you need wifi (and probably bluetooth, but it's not accurate). Maybe you need to buy compatible with macOS Mojave Wifi modules and replace or connect them, or you can make the existing Wifi and bluetooth modules work, but I did not want to do it, because I use the Internet via Ethernet wire
+* FaceTime, iMessage, HandOff, Continuity
 
 ### What not verified
 
-* Wifi
 * Bluetooth
 * HDMI Audio
 * Drive (it is recognized in macOS and can even be opened by pressing a couple of buttons in the interface, but I don't have a DVD/CD to check the drive)
@@ -112,6 +112,10 @@ After creating a flash drive with the bootloader Clover and the MacOSX system it
 ### Setup the config file.plist
 
 [Instructions for setting up the config file](/docs/ENG/Configuring/CustomizingConfig.md)
+
+### Configure  Wifi
+
+[Instructions for configure Wifi](/docs/ENG/Configuring/CustomizingWifi.md)
 
 ### Used kexts
 
