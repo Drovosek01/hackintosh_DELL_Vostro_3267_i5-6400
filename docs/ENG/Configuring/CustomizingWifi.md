@@ -32,8 +32,9 @@ Use a special program for modules with Atheros forum [insanelymac](https://www.i
 ##### Method 4
 
 Use a special program from the social network Vkontakte: https://vk.com/wall-135785821_1712
-AR946x: https://yadi.sk/d/SMSlrmt-BF4sMA
-AR9485: https://yadi.sk/d/Fw-v6EKbTUB8jg
-AR9565: https://yadi.sk/d/STSUoAGqi0MHcA
+
+* AR946x: https://yadi.sk/d/SMSlrmt-BF4sMA
+* AR9485: https://yadi.sk/d/Fw-v6EKbTUB8jg
+* AR9565: https://yadi.sk/d/STSUoAGqi0MHcA
 
 After applying one of these methods, you need to restart your computer.

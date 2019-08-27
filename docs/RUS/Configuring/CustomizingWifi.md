@@ -32,8 +32,8 @@
 ##### Способ 4
 
 Используем специальную программу из социальной сети ВКонтакте: https://vk.com/wall-135785821_1712
-AR946x: https://yadi.sk/d/SMSlrmt-BF4sMA
-AR9485: https://yadi.sk/d/Fw-v6EKbTUB8jg
-AR9565: https://yadi.sk/d/STSUoAGqi0MHcA
+* AR946x: https://yadi.sk/d/SMSlrmt-BF4sMA
+* AR9485: https://yadi.sk/d/Fw-v6EKbTUB8jg
+* AR9565: https://yadi.sk/d/STSUoAGqi0MHcA
 
 После применения одного из этих способов нужно перезагрузить ваш компьютер.

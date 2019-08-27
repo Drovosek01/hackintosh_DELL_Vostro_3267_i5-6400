@@ -17,9 +17,9 @@ This instruction I wrote for myself that after reinstallation not to remember as
 * Sound adapter
   * Realtek ALC 891
 * Bluetooth
-  * Dell Wireless 1707 Bluetooth 4.0 LE Device  
+  * Dell Wireless 1707 Bluetooth 4.0 LE Device (QCA9565)
 * Wifi
-  * Qualcomm QCA9565 802.11 b/g/n Wireless Adapter
+  * Qualcomm Atheros AR9565 802.11 b/g/n Wireless Adapter
 * Ethernet
   * Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter
 
