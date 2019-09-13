@@ -31,7 +31,7 @@
 
 Для начала вам нужно либо пропатчить DSDT файл, либо вписать в конфиг соответствущие патчи, чтобы загрузчик сам пропатчил DSDT во время загрузки.
 
-Я действовал по [этой](https://translate.google.com/translate?js=n&sl=auto&tl=en&u=https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html) инструкции от Daliansky. Для настройки USB, вписал в config эти патчи. Я не знаю, нужны ли они все, но мне кажется, они не взаимоисклчающие и их можно применять вместе.
+Я действовал по [этой](https://translate.google.com/translate?js=n&sl=auto&tl=en&u=https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html) инструкции от Daliansky. Для настройки USB, вписал в config эти патчи. Я не знаю, нужны ли они все, но мне кажется, они не взаимоисключающие и их можно применять вместе.
 
 * XHCI to XHC
 * XHCI1 to XHC
