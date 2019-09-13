@@ -113,10 +113,6 @@ MacOSX может быть установлена на диск (без форм
 
 [Инструкция по настройке конфига](/docs/RUS/Configuring/CustomizingConfig.md)
 
-### Настройка Wifi
-
-[Инструкция по настройке Wifi](/docs/RUS/Configuring/CustomizingWifi.md)
-
 ### Используемые кексты
 
 [Инструкция по использованию кекстов](/docs/RUS/Configuring/InstalledKexts.md)
@@ -170,6 +166,14 @@ MacOSX может быть установлена на диск (без форм
 
 * https://appstudio.org/faq/3068.html
 * https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/
+
+## Настройка hHackintosh
+
+### Настройка Wifi
+
+[Инструкция по настройке Wifi](/docs/RUS/Configuring/CustomizingWifi.md)
+
+### Настройка USB портов
 
 ## Установка программ
 
