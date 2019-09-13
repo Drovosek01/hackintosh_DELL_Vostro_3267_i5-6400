@@ -41,13 +41,15 @@ I acted on [that](https://translate.google.com/translate?js=n&sl=auto&tl=en&u=ht
 * EHC2 to EH02
 * EC0 to EC
 
-КАРТИНКИ !!!!!
+![USB ports DSDT patches Clover Configurator](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/images/usb_ports/usb_DSDT_patches_CCG.png?raw=true)
+
+![USB ports DSDT patches text config](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/images/usb_ports/usb_DSDT_patches_text-config.png?raw=true)
 
 Then I rebooted the PC, launched Hackintool and opened the USB tab. It displayed a list/table of USB ports and some of them (half or most) were highlighted in green. Then I took a USB flash drive that supports data transfer standard USB 3.0, took out the keyboard and mouse from the PC and began to insert this stick into all USB ports in turn. Then I took a USB stick that supports only USB 2.0 and also began to insert and remove it in all USB ports.
 
-Then I removed from the list/table all the rows that were not highlighted in green (select the row at the bottom and click on the round button with a minus). Next, all the ports that had the name SS and the transfer rate of 5 Gbps I marked in the table as * USB 3 * ports (in the Connector column). The line, which was IOUSBHostDevice (most likely bluetooth) and USB2.0-CRW (most likely it is the Card Reader) I marked it as *Internal* ports. And all the rest I marked as * USB 2 * ports (all in the same column Connector).
+Then I removed from the list/table all the rows that were not highlighted in green (select the row at the bottom and click on the round button with a minus). Next, all the ports that had the name SS and the transfer rate of 5 Gbps I marked in the table as *USB 3* ports (in the Connector column). The line, which was IOUSBHostDevice (most likely bluetooth) and USB2.0-CRW (most likely it is the Card Reader) I marked it as *Internal* ports. And all the rest I marked as *USB 2* ports (all in the same column Connector).
 
-Then I clicked on the * Export * button (it is there at the bottom), pointed to the folder and the program generated several files:
+Then I clicked on the *Export* button (it is there at the bottom), pointed to the folder and the program generated several files:
 
 * USBPorts.kext
 * SSDT-EC.aml

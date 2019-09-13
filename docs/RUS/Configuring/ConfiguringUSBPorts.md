@@ -41,7 +41,9 @@
 * EHC2 to EH02
 * EC0 to EC
 
-КАРТИНКИ !!!!!
+![USB ports DSDT patches Clover Configurator](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/images/usb_ports/usb_DSDT_patches_CCG.png?raw=true)
+
+![USB ports DSDT patches text config](https://github.com/Drovosek01/hackintosh_DELL_Vostro_3267_i5-6400/blob/master/images/usb_ports/usb_DSDT_patches_text-config.png?raw=true)
 
 Потом я перезагрузил ПК, запустил Hackintool и открыл вкладку USB. Там отображался список/таблица USB портов и некоторые из них (половина или большая часть) были подсвечены зеленым цветом. Потом я взя флешку, которая поддерживает передачу данных по стандарту USB 3.0, вынул клавиатуру и мышку из ПК и начал вставлять эту флешку во все USB порты по очереди. Потом я взял флешку, которая поддерживает только USB 2.0 и так же начал вставлять и вынимать ее во все USB порты.
 
