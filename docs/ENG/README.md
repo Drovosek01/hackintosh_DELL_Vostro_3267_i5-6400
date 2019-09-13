@@ -113,10 +113,6 @@ After creating a flash drive with the bootloader Clover and the MacOSX system it
 
 [Instructions for setting up the config file](/docs/ENG/Configuring/CustomizingConfig.md)
 
-### Configure  Wifi
-
-[Instructions for configure Wifi](/docs/ENG/Configuring/CustomizingWifi.md)
-
 ### Used kexts
 
 [How to use kexts](/docs/ENG/Configuring/InstalledKexts.md)
@@ -170,6 +166,16 @@ About the time synchronization, you can read and download direct guide there:
 
 * https://appstudio.org/faq/3068.html
 * https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/
+
+## Configure Hackintosh
+
+### Configure  Wifi
+
+[Instructions for configure Wifi](/docs/ENG/Configuring/CustomizingWifi.md)
+
+### Configure USB ports
+
+[Instructions for configure USB](/docs/ENG/Configuring/ConfiguringUSBPorts.md)
 
 ## Software installation
 
