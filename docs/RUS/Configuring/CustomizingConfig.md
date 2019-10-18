@@ -13,6 +13,8 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
+		<key>AutoMerge</key>
+		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>Fixes</key>
@@ -31,11 +33,65 @@
 				<false/>
 				<key>FixLAN</key>
 				<false/>
-				<key>FixUSB</key>
-				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XHCI to XHC (USB)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XHC1 to XHC (USB)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename H_EC to EC (USB Power)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SF9FQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename ECDV to EC (USB Power)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUNEVg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
@@ -78,17 +134,26 @@
 					RUNfXw==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-		</array>
 		<key>SSDT</key>
 		<dict>
+			<key>EnableC7</key>
+			<false/>
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
@@ -98,19 +163,23 @@
 				<key>PluginType</key>
 				<true/>
 			</dict>
+			<key>PluginType</key>
+			<string>1</string>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>darkwake=0 alcid=13 igfxframe=0x19120000</string>
+		<string>darkwake=10</string>
+		<key>HibernationFixup</key>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>NO</string>
+			<integer>13</integer>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -159,15 +228,6 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-			<string>Recovery</string>
-			<string>Legacy HD2</string>
-			<string>Legacy HD3</string>
-			<string>Legacy HD4</string>
-			<string>Legacy HD5</string>
-		</array>
 		<key>Language</key>
 		<string>ru:0</string>
 		<key>Mouse</key>
@@ -179,6 +239,8 @@
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
+		<key>PlayAsync</key>
+		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -195,6 +257,21 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>EDID</key>
+		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wAGEBKgAAAAABwWAQS1MBt4Im+xp1VMniUMUFSlSwBx
+			T4GAqcDRwAEBAQEBAQEBAjqAGHE4LUBYLEUADyghAAAeAAAA/wBQ
+			N0hUODhCNDBFQUwKAAAA/ABpTWFjCiAgICAgICAgAAAA/QA4TB5T
+			EQAKICAgICAgAVQCAxexTJAFBAMCBxYBFB8SE2UDDAAQAAI6gBhx
+			OC1AWCxFAA8oIQAAHgEdgBhxHBYgWCwlAA8oIQAAngEdAHJR0B4g
+			bihVAA8oIQAAHowK0Iog4C0QED6WAA8oIQAAGAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAPQ==
+			</data>
+			<key>Inject</key>
+			<true/>
+		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -333,17 +410,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>05/28/2019</string>
+		<string>06/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM171.88Z.F000.B00.1905281222</string>
+		<string>IM171.88Z.F000.B00.1906171551</string>
 		<key>Board-ID</key>
 		<string>Mac-B809C3757DA9BB8D</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02632100QXGPF7A8</string>
+		<string>C02517207GUGPF7CB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -355,7 +432,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>168.0.0.0.0</string>
+		<string>170.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac17,1</string>
 		<key>FirmwareFeatures</key>
@@ -373,20 +450,21 @@
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>C02S63ZTGG7L</string>
+		<string>C02PMXZ4GG7L</string>
 		<key>SmUUID</key>
-		<string>913BBCAF-A976-47C5-B281-2DEB763DC8B0</string>
+		<string>FCA2FD7C-9048-4DB0-ABC8-5FF09DAAD87F</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>FFE3C49C-DF3C-4FCC-B69E-A833E6D87F88</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>
 </dict>
 </plist>
-
 ```
 
 Это не рабочий config.plist. Выше я привел только те пункты, которые были изменены по сравнению с родным конфигом из ISO образа Clover ревизии 5033.
